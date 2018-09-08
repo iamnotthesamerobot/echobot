@@ -1,1 +1,2 @@
-telebot
+telebot==0.0.3
+PyTelegramBotAPI==2.2.3
