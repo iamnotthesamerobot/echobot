@@ -5,7 +5,7 @@
 
 import telebot
 
-echobot = telebot.TeleBot('574405257:AAFdIn5ko9ZoNLgQZZkGnzGncZIFvohjEqo')
+echobot = telebot.TeleBot('token')
 
 @echobot.message_handler(content_types=["text"])
 def repeat_all_messages(message): 
